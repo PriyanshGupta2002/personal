@@ -26,6 +26,10 @@ function App() {
      <Intro/>
      <Skills/>
     </Route>
+     <Route exact path="/portfolio">
+     <Intro/>
+     <Skills/>
+    </Route>
 
           <Route exact path="/about">
             <About/>
