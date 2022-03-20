@@ -5,7 +5,7 @@ import facebook from './facebook.png'
 import instagram from './instagram.png'
 import github from './github.png'
 import Typewriter from "typewriter-effect";
-import { Link } from 'react-router-dom'
+import resume from '../../assets/resume.pdf'
 const Intro = () => {
   return (
    <>
@@ -27,9 +27,9 @@ const Intro = () => {
 />
     </div>
 
-    <Link to="#" className="btn">
+    <a href={resume} className="btn" target="_blank" rel='noreferrer'>
         Download Resume
-    </Link>
+    </a>
 
    <div className="links">
        <a href="https://www.facebook.com/priyansh.gupta.37853">
