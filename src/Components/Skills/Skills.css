@@ -1,0 +1,14 @@
+.SContainer{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin: 1rem auto;
+    gap: 1rem;
+    border-radius: 16px;
+    justify-content: center;
+}
+@media only screen and (max-width: 1000px) {
+    .SContainer{
+        flex-direction: column;
+    }
+}

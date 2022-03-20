@@ -1,0 +1,192 @@
+.a-container{
+  
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+    gap: 3rem;
+
+}
+.a-head{
+    text-align: center;
+    font-size: 1.5rem;
+    animation: a-head 1s   1 normal ;
+
+}
+@keyframes a-head {
+    0%{
+        transform: translateX(-100%);
+    }
+}
+.a-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.a-left{
+    /* flex: 1; */
+    padding: 2rem;
+    box-shadow: 0px 4px 30px rgb(0 0 0 / 10%);
+    background: rgba(255, 255, 255,0.2);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex: 1;
+   animation: aleft 1s   1 normal ;
+}
+@keyframes aleft {
+    0%{
+        transform: translateX(-100%);
+    }
+}
+
+.a-right{
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+
+}
+
+.gen-card,.cast-card,.age-card{
+    box-shadow: 0px 4px 30px rgb(0 0 0 / 10%);
+    background: rgba(255, 255, 255,0.2);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0rem;
+}
+.gen-card{
+    animation: gen-card 0.5s   1 normal ;
+}
+.cast-card{
+    animation: cast-card 1s   1 normal ;
+}
+.age-card{
+    animation: age-card 1.5s   1 normal ;
+}
+.hobbies{
+    animation: hobbies-card 2s   1 normal ;
+}
+@keyframes gen-card {
+    0%{
+        transform: translateX(100%);
+    }
+}
+@keyframes cast-card {
+    0%{
+        transform: translateX(100%);
+    }
+}
+@keyframes age-card {
+    0%{
+        transform: translateX(100%);
+    }
+}
+@keyframes hobbies-card {
+    0%{
+        transform: translateX(100%);
+    }
+}
+.a-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   gap: 1rem;
+   text-align: center;
+}
+.hobbies{
+    display: flex;
+    justify-content: space-between;
+}
+.hobbies img{
+    width: 15%;
+    box-shadow: 0px 4px 30px rgb(0 0 0 / 10%);
+    background: rgba(255, 255, 255,0.2);
+    border-radius: 50%;
+    padding: 1rem;
+    cursor: pointer;
+}
+.s-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+.s-img{
+width: 19%;
+border-radius: 50%;
+}
+@media only screen and (max-width: 768px) {
+    .a-container{
+        gap: 1rem;
+    }
+    .a-head{
+        font-size: 1.3rem;
+    }
+    .a-card{
+        font-size: 0.8rem;
+    }
+    .a-wrapper{
+        flex-direction: column;
+    }
+    .s-img{
+        width: 25%;
+    }
+    .a-container{
+        width: 100%;
+        padding: 1rem;
+    }
+    .a-right{
+        font-size: 0.9rem;
+    }
+    .hobbies img{
+        padding: 9px;
+        width: 14%;
+    }
+    .hobbies{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+
+@media screen and (min-device-width: 768px) and (max-device-width: 950px) { 
+    /* STYLES HERE */
+    .a-container{
+        gap: 1rem;
+    }
+    .a-head{
+        font-size: 1.3rem;
+    }
+    .a-card{
+        font-size: 0.8rem;
+    }
+    .a-wrapper{
+        flex-direction: column;
+    }
+    .s-img{
+        width: 15%;
+    }
+    .a-container{
+        width: 100%;
+        padding: 1rem;
+    }
+    .a-right{
+        font-size: 0.9rem;
+    }
+    .hobbies img{
+            width: 10%;
+    }
+    .hobbies{
+        width: 80%;
+        margin: auto;
+    }
+}

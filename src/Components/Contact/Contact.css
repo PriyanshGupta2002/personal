@@ -1,0 +1,171 @@
+.c-container{
+    min-height: 100vh;
+    display: flex;
+    background: rgba(255, 255, 255,0.2);
+    border-radius: 16px;
+    /* box-shadow: 0px 4px 30px rgb(0 0 0 / 10%); */
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+.c-header{
+    width: 58%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    animation: header 1s 1 normal
+}
+@keyframes header {
+    0%{
+        transform: translateX(-100%);
+    }
+}
+.c-header img{
+    width: 35px;
+}
+form{
+    width: 60%;
+    margin: auto;
+}
+
+.inpName,.inpSub,.inpEmail,.inpTextArea{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin: 1.3rem auto;
+    width: 100%;
+    gap: 10px;
+
+}
+
+
+
+.inpName{
+animation: name 1s 1 normal;
+}
+
+.inpEmail{
+animation: email 1.75s 1 normal;
+}
+.inpSub{
+animation: subject 1.25s 1 normal;
+
+}
+.inpTextArea{
+animation: textArea 2s 1 normal;
+}
+.load{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.load img{
+    width:10%}
+
+@keyframes name {
+    0%{
+        transform: translateX(-100%);
+    }
+  
+}
+@keyframes email {
+    0%{
+        transform: translateX(-100%);
+    }
+}
+@keyframes subject {
+    0%{
+        transform: translateX(-100%);
+    }
+}
+@keyframes textArea {
+    0%{
+        transform: translateX(-100%);
+    }
+}
+
+
+input,textarea{
+    background: rgba(255, 255, 255,0.2);
+    box-shadow: 0px 4px 30px rgb(0 0 0 / 10%);
+    padding: 1rem ;
+    border: none;
+    font-size: medium;
+    border-bottom: 2px solid green;
+    outline: none;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+input:focus,textarea:focus{
+    border: 2px solid green;
+}
+
+.invalid input {
+    border: 1px solid #b40e0e;
+    background-color: #fddddd;
+  }
+  
+  .invalid input:focus {
+    border-color: #ff8800;
+    background-color: #fbe8d2;
+  }
+
+.invalid textarea {
+    border: 1px solid #b40e0e;
+    background-color: #fddddd;
+  }
+  
+  .invalid textarea:focus {
+    border-color: #ff8800;
+    background-color: #fbe8d2;
+  }
+
+  form p{
+      color: red;
+  }
+.c-btn{
+    padding: 8px 20px;
+    background: rgba(255, 255, 255,0.2);
+    border-radius: 6px;
+    box-shadow: 0px 4px 30px rgb(0 0 0 / 10%);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: 1px solid green;
+    animation: button 0.7s 1 normal;
+}
+.c-btn:hover{
+    background-color: green;
+    color: white;
+}
+@keyframes button{
+0%{
+    transform: translateX(-100%);
+}
+}
+@media only screen and (max-width: 1024px) {
+    .c-container{
+        width: 100%;
+        padding: 0rem 1rem;
+        margin: 0px;
+    }
+    .c-header{
+        width: auto;
+        margin: 0px;
+        font-size: 0.8rem;
+    }
+    form{
+        width: auto;
+        margin: 0px;
+        margin-bottom: 9rem;
+    }
+    .c-container{
+        min-height: auto;
+    }
+
+}

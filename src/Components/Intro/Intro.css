@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.intoContainer{
+    /* background-color: aquamarine; */
+    display: flex;
+    padding: 4rem;
+    background: rgba(255, 255, 255,0.2);
+    border-radius: 16px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    margin: auto;
+
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.title h3{
+    font-size: 2.8rem;
+}
+.name{
+    font-size: 2rem;
+}
+.right{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.Typewriter__wrapper{
+    font-size: 2rem;
+}
+.Typewriter__cursor{
+    font-size: 2rem;
+    
+}
+.right img{
+    width: 40%;
+    border-radius: 50%;
+}
+.btn{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    background:#fff;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 30px;
+    transition: all 0.3s;
+    border: 1px solid #efefee;
+    box-shadow: 0px 1px 11px rgb(0 0 0 / 10%);
+    cursor: pointer;
+    transition: background 0.3s;
+    margin: 0.7rem 0rem;
+}
+.btn:hover{
+    background: rgb(151, 85, 216);
+    color: white;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+    width: 44%;
+}
+.links img{
+    width: 50%;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+    .intoContainer{
+        padding: 1rem;
+        gap: 16px;
+        flex-direction: column-reverse;
+    }
+    .title h3{
+        font-size: 1.4rem;
+    }
+    .name{
+        font-size: 1.3rem;
+    }
+    .Typewriter__wrapper{
+        font-size: 1rem;
+    }
+    .Typewriter__cursor{
+        font-size: 1rem;
+    }
+    .btn{
+        font-size: 11px;
+    }
+    
+
+}
+@media only screen and (max-width: 995px) {
+
+    .intoContainer{
+        flex-direction: column-reverse;
+        gap: 1.6rem;
+    }
+
+}
+@media only screen and (min-width:995px) and  (max-width: 1050px) {
+
+    .Typewriter__wrapper{
+        font-size: 1.4rem;
+    }
+    .Typewriter__cursor{
+        font-size: 1.4rem;
+    }
+    .title h3{
+        font-size: 2.3rem;
+    }
+    .name{
+        font-size: 1.7rem;
+    }
+
+}
