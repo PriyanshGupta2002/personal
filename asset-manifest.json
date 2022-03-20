@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/personal/static/css/main.86caf7e1.css",
-    "main.js": "/personal/static/js/main.edb33426.js",
+    "main.js": "/personal/static/js/main.8d12df18.js",
     "static/media/submitGif.gif": "/personal/static/media/submitGif.167855869c497f14f799.gif",
     "static/media/intro.png": "/personal/static/media/intro.e02a185da822d7859341.png",
     "static/media/contact.png": "/personal/static/media/contact.359e7eb930b61a00b10c.png",
+    "static/media/resume.pdf": "/personal/static/media/resume.e39e189fc16d453ac05a.pdf",
     "static/media/tailwindlogo.png": "/personal/static/media/tailwindlogo.9c2e5bcf4f97d73e438e.png",
     "static/media/instagram.png": "/personal/static/media/instagram.79535458a8a6d88f81d4.png",
     "static/media/physics.png": "/personal/static/media/physics.86c8d9eba03e29814d2a.png",
@@ -22,10 +23,10 @@
     "static/media/nextjs.svg": "/personal/static/media/nextjs.1cc927914ef4f6172e25ec70a21644a5.svg",
     "index.html": "/personal/index.html",
     "main.86caf7e1.css.map": "/personal/static/css/main.86caf7e1.css.map",
-    "main.edb33426.js.map": "/personal/static/js/main.edb33426.js.map"
+    "main.8d12df18.js.map": "/personal/static/js/main.8d12df18.js.map"
   },
   "entrypoints": [
     "static/css/main.86caf7e1.css",
-    "static/js/main.edb33426.js"
+    "static/js/main.8d12df18.js"
   ]
 }
