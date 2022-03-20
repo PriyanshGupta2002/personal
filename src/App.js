@@ -26,7 +26,7 @@ function App() {
      <Intro/>
      <Skills/>
     </Route>
-     <Route exact path="/portfolio">
+     <Route exact path="/personal">
      <Intro/>
      <Skills/>
     </Route>
